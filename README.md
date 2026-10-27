@@ -2,7 +2,7 @@ How to Run Code.
 
 python3 Console.py
 
-Commands:
+Commands
 LEFT 
 RIGHT
 WRITE [char]
