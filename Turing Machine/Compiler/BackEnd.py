@@ -1,4 +1,5 @@
 from Compiler import Token,ErrorHandler
+import time
 
 RESET = "\033[0m"
 BOLD = "\033[1m"
@@ -63,7 +64,8 @@ def executeLabel(instructions,label,TuringMachine):
         print("\n")
 
         while True:
-            step = str(input(""))
+            #step = str(input(""))
+            time.sleep(0.7)
             visualizeLabel(code,index,label)
             break
 
